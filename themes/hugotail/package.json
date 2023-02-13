@@ -1,0 +1,22 @@
+{
+  "name": "hugotail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp --development",
+    "build": "gulp --production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-mode": "^1.1.0",
+    "gulp-postcss": "^9.0.1",
+    "tailwindcss": "^3.2.6"
+  }
+}
