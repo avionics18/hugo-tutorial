@@ -17,11 +17,11 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Error deleniti veniam b
 * CGPA - 6.28
 * Year - 2015-20
 
-### Higher Secondary School (CBSE), AECS Jadugoda
+### HSC (CBSE), AECS Jadugoda
 * Percentage - 82.8%
 * Year - 2012-14
 
-### Senior Secondary School (CBSE), AECS Narwapahar
+### SSC (CBSE), AECS Narwapahar
 * Percentage - 91.2%
 * Year - 2002-12
 

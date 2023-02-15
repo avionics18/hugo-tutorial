@@ -1,5 +1,17 @@
 {{ define "main" }}
-	<div class="prose lg:prose-lg py-10 hover:prose-a:text-indigo-600">
-    {{ .Content }}
+<div class="hero py-16">
+  <div class="container">
+    <div class="hero__wrapper m-auto md:grid md:grid-cols-12 md:gap-x-6 xl:gap-x-12">
+      <img src="https://media1.popsugar-assets.com/files/thumbor/vd2tTwHG_W5uT8X5JCYrFCXmFag/401x0:2401x2000/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2020/03/12/147/n/45101125/e797e3475e6af0ab153e86.45110527_/i/tom-holland-best-black--white-pictures.jpg" alt="AP" class="hero__img m-auto w-56 object-cover object-center md:col-span-4 md:h-96 md:w-full" />
+      <div class="hero__content py-4 text-center md:col-span-8 md:text-left">
+        <h1 class="mb-4 text-2xl font-bold sm:text-3xl md:text-5xl md:leading-normal">Hi, I'm Avinash and I'm a <span class="bg-black text-white">Junior Full-Stack Developer</span>.</h1>
+        <p class="text-slate-700 sm:text-lg mb-4 font-serif">I'm Junior Full Stack Developer based in Jharkhand, India. I have 1 year of commercial experience and I specialize in creating web apps. I am open for new opportunities and intresting projects.</p>
+        <p class="flex items-center justify-center gap-x-1 sm:gap-x-4 md:justify-start">
+          <a href="/contact" class="border-2 border-black bg-black py-2 px-2 font-serif text-white hover:border-slate-700 hover:bg-slate-700 sm:px-6">Contact Me</a>
+          <a href="/project" class="border-2 border-black py-2 px-2 font-serif text-black hover:border-slate-700 hover:bg-slate-700 hover:text-white sm:px-6">Check My Work</a>
+        </p>
+      </div>
+    </div>
   </div>
+</div>
 {{ end }}
