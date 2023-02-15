@@ -6,11 +6,11 @@
 	        <span class="text-3xl font-bold uppercase">AP</span>
 	      </div>
 	      <div class="navbar__menu col-span-12 mb-2 flex items-center justify-between border-b border-slate-400 pb-2 lg:col-span-6 xl:col-span-6 xl:justify-around">
-	        <a href="/" class="navbar__menu-item active text-slate-600 hover:text-black">Home</a>
-	        <a href="/project" class="navbar__menu-item text-slate-600 hover:text-black">Project</a>
-	        <a href="/resume" class="navbar__menu-item text-slate-600 hover:text-black">Resume</a>
-	        <a href="/about" class="navbar__menu-item text-slate-600 hover:text-black">About</a>
-	        <a href="/contact" class="navbar__menu-item text-slate-600 hover:text-black">Contact</a>
+	        <a href='{{"/" | relURL}}' class="navbar__menu-item active text-slate-600 hover:text-black">Home</a>
+	        <a href='{{ "/project" | relURL }}' class="navbar__menu-item text-slate-600 hover:text-black">Project</a>
+	        <a href='{{ "/resume" | relURL }}' class="navbar__menu-item text-slate-600 hover:text-black">Resume</a>
+	        <a href='{{ "/about" | relURL }}' class="navbar__menu-item text-slate-600 hover:text-black">About</a>
+	        <a href='{{ "/contact" | relURL }}' class="navbar__menu-item text-slate-600 hover:text-black">Contact</a>
 	      </div>
 	      <div class="navbar__groupLinks col-span-12 flex items-center justify-between border-b border-slate-400 pb-2 lg:col-span-6 lg:mb-2 lg:justify-end lg:gap-x-8 xl:col-span-3">
 	        <div class="navbar__lang flex items-center gap-x-2">
