@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h2>{{ .Title }}</h2>
+  {{ .Content }}
+  <section class="projectList__container">
+    {{ range .Pages.ByDate.Reverse }}
+      <section class="projectList__project">
+        <h3 class="projectList__project--title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      </section>
+    {{ end }}
+  </section>
+{{ end }}

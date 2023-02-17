@@ -8,7 +8,7 @@ const cssnano = require("cssnano");
 // tailwind task
 function tailwindTask() {
   let processors; 
-	processors = mode.production() ? [tailwindcss, autoprefixer, cssnano] : [tailwindcss, autoprefixer];
+	processors = mode.production() ? [tailwindcss, autoprefixer, cssnano] : [tailwindcss];
 
   return src("src/css/style.css")
     .pipe(postcss(processors))

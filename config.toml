@@ -1,4 +1,4 @@
 baseURL = 'https://hugotut.netlify.app/'
 languageCode = 'en-us'
 title = "Avinash's Portfolio"
-theme="hugotail"
+theme="basic"

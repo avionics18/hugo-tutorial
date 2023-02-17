@@ -7,5 +7,6 @@
         "editor.defaultFormatter": "vscode.html-language-features"
     },
     "prettier.tabWidth": 2,
+    "editor.tabSize": 2,
     "editor.fontSize": 16
 }

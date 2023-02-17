@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <div class="projectSingle__container">
+    <section class="projectSingle__sidebar">
+      <h2>Projects</h2>
+      {{ range (where .Site.RegularPages "Type" "in" "projects").ByDate.Reverse }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </section>
+    <section class="projectSingle__details">
+      <h2>{{ .Title }}</h2>
+      {{ .Content }}
+    </section>
+  </div>
+{{ end }}
