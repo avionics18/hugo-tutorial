@@ -3,7 +3,7 @@ title: "Jabberwocky"
 draft: false
 ---
 
-![alt](//via.placeholder.com/640x150)
+![alt](//via.placeholder.com/640x180)
 
 This project was a special project, as this time it was for my favourite dance crew in the world - **Jabbawockeez**, based of Washington, Seattle. It includes many features like ticket creation, ticket management, automated email send to respective authorities.
 

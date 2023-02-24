@@ -3,7 +3,7 @@ title: "Awesomeco"
 draft: false
 ---
 
-![Awesome Company](//via.placeholder.com/640x150)
+![Awesome Company](//via.placeholder.com/640x180)
 
 This project was done for the client Awesome Company, based of Washington, Seattle. It includes many features like ticket creation, ticket management, automated email send to respective authorities.
 
