@@ -12,4 +12,4 @@ A black & white minimalistic portfolio theme made using Hugo and Tailwindcss.
     * Now you can design your layouts using tailwind css and it will generate the required classes for you. And you will also be seeing live changes reflected onto your browser.
 * For production:
     * First run `npm run build` from theme `hugotail/` folder (for css minification), and then
-    * `hugo --cleanDestinationDir --minify` from your project's root folder (for html minification).
+    * `hugo -t hugotail --cleanDestinationDir --minify` from your project's root folder (for html minification).
