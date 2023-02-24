@@ -6,6 +6,8 @@
         <main id="content">
             {{- block "main" . }}{{- end }}
         </main>
-        {{- partial "footer.html" . -}}
+        {{ if ne .IsHome true }}
+            {{- partial "footer.html" . -}}
+        {{ end }}
     </body>
 </html>
