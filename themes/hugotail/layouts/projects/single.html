@@ -1,0 +1,38 @@
+{{ define "main" }}
+  <div class="container">
+    <h2 class="page-title text-4xl text-slate-600 font-bold font-serif text-center px-4 pt-12">
+      <span class="font-light font-sans">Project: </span>{{ .Title }}
+    </h2>
+    <div class="content-prose mx-auto prose-img:w-full">
+      {{ .Content }}
+    </div>
+    {{/*  .content-prose  */}}
+
+    <div class="other-projects border-t border-slate-400 py-8">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-bold">Featured Projects</h2>
+        <a class="inline-block text-sm bg-black text-white text-center py-1 px-4 hover:bg-slate-700" href="/projects">View All</a>
+      </div>
+      <div class="grid grid-cols-2 gap-8">
+        {{ range first 2 (where .Site.RegularPages "Type" "in" "projects").ByDate.Reverse }}
+          <div class="bg-slate-100 p-4 shadow flex items-start gap-4">
+            <img src="https://via.placeholder.com/300x180" alt="Placeholder Image" class="w-72">
+            <div class="flex-1">
+              <h3 class="font-bold text-2xl mb-2">
+                <a href="{{ .RelPermalink }}" class="underline-offset-2 hover:underline">{{ .Title }}</a>
+              </h3>
+                <p class="text-xs flex items-center flex-wrap gap-1 mb-3">
+                <a href="#" class="bg-white text-black py-px px-2 rounded-full shadow hover:bg-black hover:text-white">#React</a>
+                <a href="#" class="bg-white text-black py-px px-2 rounded-full shadow hover:bg-black hover:text-white">#NodeJs</a>
+                <a href="#" class="bg-white text-black py-px px-2 rounded-full shadow hover:bg-black hover:text-white">#Express</a>
+                <a href="#" class="bg-white text-black py-px px-2 rounded-full shadow hover:bg-black hover:text-white">#MongoDB</a>
+              </p>
+              <p class="text-sm text-slate-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum saepe nobis aperiam repellendus quo reprehenderit.</p>
+            </div>{{/*  project-description  */}}
+          </div>{{/*  project-card  */}}  
+        {{ end }}
+      </div>
+    </div>
+    <!-- .other-projects -->
+  </div>
+{{ end }}
