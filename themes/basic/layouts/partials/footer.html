@@ -1,3 +1,10 @@
 <footer>
-	<small>Copyright {{ now.Format "2006" }} Me.</small>
+	<div class="footer-sc-links flex justify-center">
+		{{ range .Site.Data.socialMediaHandles.accounts -}}
+		<a href="{{ .url }}" target="_blank">{{ .name | title }}</a>				
+		{{- end }}
+	</div>
+	<div class="footer-credits">
+		<span>Copyright {{ now.Format "2006" }} {{ .Site.Params.author }}</span>
+	</div>
 </footer>

@@ -1,0 +1,16 @@
+{
+	"projects": [
+		{{- range $index, $page := (where .Site.RegularPages "Type" "in" "projects") -}}
+
+		{{- if $index -}} , {{- end }}		
+		{
+			"url": {{ .Permalink | jsonify }},
+			"title": {{ .Title | jsonify }},
+			"summary": {{ .Summary | jsonify }},
+			"img_url": {{ printf "%s%s" "https:" .Params.image | jsonify }},
+			"img_alt_text": {{ .Params.alt_text | jsonify }},
+			"tech_used": {{ delimit .Params.tech_used ", " | jsonify }}
+		}
+		{{- end }}
+	]
+}

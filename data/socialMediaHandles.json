@@ -1,0 +1,24 @@
+{
+  "accounts": [
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/avinash_murmu"
+    },
+    {
+      "name": "twitter",
+      "url": "https://www.twitter.com/avinash_murmu"
+    },
+    {
+      "name": "youtube",
+      "url": "https://www.youtube.com/avionics"
+    },
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/a___vinashkari"
+    },
+    {
+      "name": "pintrest",
+      "url": "https://www.pintrest.com/avionics"
+    }
+  ]
+}

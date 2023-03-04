@@ -2,6 +2,7 @@
 	width: 80%;
 	margin: 0 auto;
 }
+/* Navbar */
 nav, footer {
 	background-color: #333;
 	color: #fff;
@@ -17,6 +18,37 @@ nav > a {
 	text-decoration: none;
 	color: #fff;
 }
+
+/* Opensource  */
+.oss {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.oss article {
+	border: 1px solid #ddd;
+	box-shadow: 3px 3px 3px #ddd;
+	margin: 0.5%;
+	padding: 0.5%;
+	width: 30%;
+}
+
+/* Footer  */
+.footer-sc-links {
+	border-bottom: 1px solid #444;
+	padding: 16px 0;
+	gap: 16px;
+}
+.footer-sc-links a {
+	color: #888;
+}
+.footer-sc-links a:hover {
+	color: #ccc;
+}
+.footer-credits {
+	padding: 16px 0;
+}
+
 
 /* === Media Queries === */
 /* 768px -> UP */
@@ -47,4 +79,20 @@ nav > a {
 	.projectList__container .projectList__project--title {
 		font-family: monospace;
 	}
+}
+
+
+
+/*=== Utilities ===*/
+.flex {
+	display: flex;
+}
+.items-center {
+	align-items: center;
+}
+.justify-center {
+	justify-content: center;
+}
+.justify-between {
+	justify-content: space-between;
 }

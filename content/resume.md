@@ -1,5 +1,6 @@
 ---
 title: "Résumé"
+keywords: ["Avinash Murmu", "Resume", "Portfolio"]
 date: 2023-02-11T20:21:22+05:30
 draft: false
 ---

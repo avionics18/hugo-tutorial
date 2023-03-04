@@ -1,9 +1,15 @@
 ---
 title: "Jabberwocky"
+keywords: ["Jabberwocky", "Hugo", "Static Site Generator"]
+image: //via.placeholder.com/640x150
+alt_text: "Jabberwocky Screenshot"
+summary: "Summary of the Jabberwocky project."
+tech_used:
+- Javascript
+- CSS
+- HTML
 draft: false
 ---
-
-![alt](//via.placeholder.com/640x180)
 
 This project was a special project, as this time it was for my favourite dance crew in the world - **Jabbawockeez**, based of Washington, Seattle. It includes many features like ticket creation, ticket management, automated email send to respective authorities.
 

@@ -8,7 +8,18 @@
     </section>
     <section class="projectSingle__details">
       <h2>{{ .Title }}</h2>
+      <p>
+        <img src="{{ .Params.image }}" alt="{{ .Params.alt_text }}">
+      </p>
       {{ .Content }}
+      <section>
+        <h3>Tech Used:</h3>
+        <ul>
+          {{ range .Params.tech_used }}
+            <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+      </section>
     </section>
   </div>
 {{ end }}

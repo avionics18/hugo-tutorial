@@ -1,13 +1,14 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+keywords: ["{{ replace .Name "-" " " | title }}"]
+image: //via.placeholder.com/640x150
+alt_text: "{{ replace .Name "-" " " | title }} Screenshot"
+summary: "Summary of the {{ replace .Name "-" " " }} project."
+tech_used:
+- Javascript
+- CSS
+- HTML
 draft: false
 ---
 
-![alt](//via.placeholder.com/640x150)
-
-Description...
-
-### Tech Used
-* item
-* item
-* item
+Description of the {{ replace .Name "-" " " }} project.

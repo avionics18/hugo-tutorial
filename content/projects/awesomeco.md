@@ -1,9 +1,15 @@
 ---
 title: "Awesomeco"
+keywords: ["Awesomeco", "Nodejs", "MongoDB"]
+image: //via.placeholder.com/640x150
+alt_text: "Awesomeco Screenshot"
+summary: "Summary of the Awesomeco project."
+tech_used:
+- Javascript
+- CSS
+- HTML
 draft: false
 ---
-
-![Awesome Company](//via.placeholder.com/640x180)
 
 This project was done for the client Awesome Company, based of Washington, Seattle. It includes many features like ticket creation, ticket management, automated email send to respective authorities.
 
